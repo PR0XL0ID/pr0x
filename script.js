@@ -12,7 +12,7 @@ document.addEventListener('keydown', event => {
 });
 
 const games = [
-     { title: "Granny", url: "https://hey-opensocial.googleusercontent.com/gadgets/ifr?url=https://groups…-google-net-x46x46oxlssaawr467.xml?part=0.1&view=1&authuser=6&container=ig", img: "https://th.bing.com/th/id/OIP.YNkomaqabYmJ5RUxib_yYAHaEK?w=313&h=180&c=7&r=0&o=5&dpr=1.3&pid=1.7" },
+     { title: "Granny test", url: "https://1748598426-atari-embeds.googleusercontent.com/embeds/16cb204cf…Jxw.O%2Fd%3D1%2Frs%3DAHpOoo-Hry6DG-RE4t9kNz_t6hiwmwXOmA%2Fm%3D__features__", img: "https://th.bing.com/th/id/OIP.YNkomaqabYmJ5RUxib_yYAHaEK?w=313&h=180&c=7&r=0&o=5&dpr=1.3&pid=1.7" },
     { title: "Stacktris", url: "https://lnahtml.github.io/a6/stacktris", img: "https://tse2.mm.bing.net/th?id=OIP.P0MNS6XIsY__2F3iBqtL1QHaFj&pid=Api&P=0&h=220" },
    { title: "Funny Shooter 2", url: "https://hva2021.github.io/funny-shooter-2/index.html", img: "https://th.bing.com/th/id/OIP.7tEmnZcPjxiM5_-N7DB4zwAAAA?w=161&h=180&c=7&r=0&o=5&dpr=1.3&pid=1.7" },
     { title: "BitLife", url: "https://hva2021.github.io/bitlife/index.html", img: "https://th.bing.com/th/id/OIP.y2QPqlYp0wH2ukOazERp_gHaD9?w=203&h=108&c=7&r=0&o=5&dpr=1.3&pid=1.7" },
