@@ -12,12 +12,9 @@ document.addEventListener('keydown', event => {
 });
 
 const games = [
+     { title: "Granny", url: "https://hey-opensocial.googleusercontent.com/gadgets/ifr?url=https://groups…-google-net-x46x46oxlssaawr467.xml?part=0.1&view=1&authuser=6&container=ig", img: "https://th.bing.com/th/id/OIP.YNkomaqabYmJ5RUxib_yYAHaEK?w=313&h=180&c=7&r=0&o=5&dpr=1.3&pid=1.7" },
     { title: "Stacktris", url: "https://lnahtml.github.io/a6/stacktris", img: "https://tse2.mm.bing.net/th?id=OIP.P0MNS6XIsY__2F3iBqtL1QHaFj&pid=Api&P=0&h=220" },
-     { title: "Funny Shooter 2", url: "https://hva2021.github.io/funny-shooter-2/index.html", img: "https://th.bing.com/th/id/OIP.7tEmnZcPjxiM5_-N7DB4zwAAAA?w=161&h=180&c=7&r=0&o=5&dpr=1.3&pid=1.7" },
-    { title: "BitLife", url: "https://hva2021.github.io/bitlife/index.html", img: "https://th.bing.com/th/id/OIP.y2QPqlYp0wH2ukOazERp_gHaD9?w=203&h=108&c=7&r=0&o=5&dpr=1.3&pid=1.7" },
-    { title: "Tumb Of The Mask", url: "https://pr0xl0id.github.io/tumb-mask/", img: "https://th.bing.com/th/id/OIP.aAGZa2_26ZvFqRQt4Tms6wHaH4?w=149&h=180&c=7&r=0&o=5&dpr=1.3&pid=1.7" },
-     { title: "Paper io 2", url: "https://pr0xl0id.github.io/paper/", img: "https://th.bing.com/th/id/OIP.IMLAVq4BM_IlbqRzVpMp1wAAAA?w=236&h=180&c=7&r=0&o=5&dpr=1.3&pid=1.7" },
-    { title: "Slice It", url: "https://www.hoodamath.com/mobile/games/hooda-slice-it/game.html?nocheckorient=1", img: "https://th.bing.com/th/id/OIP.dS_qc2C-LlPpIuaaAiR8WAHaJ8?w=134&h=180&c=7&r=0&o=5&dpr=1.3&pid=1.7" },
+   { title: "Funny Shooter 2", url: "https://hva2021.github.io/funny-shooter-2/index.html", img: "https://th.bing.com/th/id/OIP.7tEmnZcPjxiM5_-N7DB4zwAAAA?w=161&h=180&c=7&r=0&o=5&dpr=1.3&pid=1.7" },
     { title: "BitLife", url: "https://hva2021.github.io/bitlife/index.html", img: "https://th.bing.com/th/id/OIP.y2QPqlYp0wH2ukOazERp_gHaD9?w=203&h=108&c=7&r=0&o=5&dpr=1.3&pid=1.7" },
     { title: "Tumb Of The Mask", url: "https://pr0xl0id.github.io/tumb-mask/", img: "https://th.bing.com/th/id/OIP.aAGZa2_26ZvFqRQt4Tms6wHaH4?w=149&h=180&c=7&r=0&o=5&dpr=1.3&pid=1.7" },
      { title: "Paper io 2", url: "https://pr0xl0id.github.io/paper/", img: "https://th.bing.com/th/id/OIP.IMLAVq4BM_IlbqRzVpMp1wAAAA?w=236&h=180&c=7&r=0&o=5&dpr=1.3&pid=1.7" },
@@ -44,7 +41,6 @@ const games = [
     { title: "Idle Ants", url: "https://lnahtml.github.io/a5/idle-ants/", img: "http://ts4.mm.bing.net/th?id=OIP.RrlGxRJgRE-DbAJBgnc3ZwHaHa&pid=15.1" },
     { title: "Monster Tracks", url: "https://lnahtml.github.io/a5/monster-tracks/", img: "https://th.bing.com/th/id/OIP.UICL-bvWA_9u0K7lT10g-QHaHa?w=159&h=180&c=7&r=0&o=5&dpr=1.3&pid=1.7" },
 ];
-
 // Open modal for game details
 function openModal(gameUrl, gameTitle, isRummerhead = false) {
     document.getElementById("game-iframe").src = gameUrl;
